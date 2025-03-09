@@ -52,6 +52,11 @@ bool solve(int board[N][N],int col){
 
 
 int main(){
+
+    // FOR VARIABLE SIZE ARRAY;
+    //  board = (int **)malloc(N * sizeof(int *));
+    // for (int i = 0; i < N; i++)
+    //     board[i] = (int *)calloc(N, sizeof(int));  // Initialize to 0
     solve(board,0);
     for(int i = 0; i < N ; i++){
         for(int j = 0 ; j< N ; j++){
